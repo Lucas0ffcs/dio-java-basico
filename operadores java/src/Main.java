@@ -15,7 +15,7 @@ public class Main{
         else{
             System.out.println("falso");
         }
-        // até o momento nao encontrei nenhum operador que funcione como o XOR presente em
+        // até o momento nao encontrei nenhum operador que funcione como o XOR que está presente em
         // outras linguagens
 
     }
