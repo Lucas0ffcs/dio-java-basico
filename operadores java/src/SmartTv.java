@@ -18,7 +18,7 @@ public class SmartTv{
         System.out.println("Diminuindo o volume para:" + volume);
     }
     public void aumentarCanal(){
-        if (ligada == false){
+        if (!ligada){
             canal = 0;
             System.out.println("A TV não está ligada.");
         }
@@ -26,14 +26,14 @@ public class SmartTv{
 
     }
     public void diminuirCanal(){
-        if (ligada == false){
+        if (!ligada){
             canal = 0;
             System.out.println("A TV não está ligada.");
         }
         canal--;
     }
     public void mudarCanal(int novoCanal){
-        if (ligada == false){
+        if (!ligada){
             canal = 0;
             System.out.println("A TV não está ligada.");
         }
