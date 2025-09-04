@@ -84,7 +84,7 @@ public class metodos {
             saudacao = "Boa tarde!";
         }
         if ( 17 < hora || hora < 7){
-            saudacao = "Boa noite!";2
+            saudacao = "Boa noite!";
         }
         return saudacao;
     }
